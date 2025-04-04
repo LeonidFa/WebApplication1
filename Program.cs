@@ -1,4 +1,4 @@
-using Microsoft.OpenApi.Models;
+ï»¿using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API !!!!!!!!!!!!!!!!!!!!!!!", Version = "v1" });
-    //c.IncludeXmlComments("Demo.xml");   //Ïðîáà 21
+    //c.IncludeXmlComments("Demo.xml");   //ÐŸÑ€Ð¾Ð±Ð° 21
 });
 
 
